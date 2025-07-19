@@ -12,9 +12,9 @@ ipv6_addr=$4
 ipv6_gateway=$5
 is_in_china=$6
 
-DHCP_TIMEOUT=15
-DNS_FILE_TIMEOUT=5
-TEST_TIMEOUT=10
+DHCP_TIMEOUT=1
+DNS_FILE_TIMEOUT=1
+TEST_TIMEOUT=1
 
 # 检测是否有网络是通过检测这些 IP 的端口是否开放
 # 因为 debian initrd 没有 nslookup
